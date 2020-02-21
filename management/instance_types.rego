@@ -4,7 +4,7 @@ import input.tfplan as tfplan
 
 
 allowed_types = {
-    "aws": ["t2.nano", "t2.micro"],
+    "aws": ["t2.nano", "t2.micro", "m1.small"],
     "azurerm": ["Standard_A0", "Standard_A1"],
     "google": ["n1-standard-1", "n1-standard-2"]
 }
