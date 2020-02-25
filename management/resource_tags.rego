@@ -3,7 +3,7 @@ package terraform
 import input.tfplan as tfplan
 
 
-required_tags = ["owner", "department"]
+required_tags = ["owner", "department", "owner"]
 
 
 contains(arr, elem) {
