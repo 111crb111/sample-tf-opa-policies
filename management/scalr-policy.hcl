@@ -2,7 +2,7 @@ version = "v1"
 
 policy "instance_types" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "hard-mandatory1"
 }
 
 policy "resource_tags" {
