@@ -12,7 +12,7 @@ contains(arr, elem) {
 }
 
 deny["User is not allowed to perform runs from Terraform CLI"] {
-    # "tfe-cli" == tfrun.source
+    "tfe-cli" == tfrun.source
     not contains(allowed_cli_users, tfrun.created_by.name)
 }
 
