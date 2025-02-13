@@ -18,10 +18,10 @@ random_number = num {
 
 deny[reason] {
     number := random_number
-    number < 8
+    number < 800
 
     reason := sprintf(
-        "Unlucky you: got %d, but 8 or more is required",
+        "Unlucky you: got %d, but 800 or more is required",
         [number]
     )
 }
